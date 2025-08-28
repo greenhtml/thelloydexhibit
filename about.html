@@ -8,16 +8,25 @@
   <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header class="header">
+    <a class="brand" href="index.html">The Lloyd Exhibit</a>
+  </header>
   <aside class="sidebar">
-    <h1 class="logo">The Lloyd Exhibit</h1>
-    <nav>
+    <nav class="nav" aria-label="Main">
       <a href="gallery.html">Gallery</a>
-      <a href="about.html">About</a>
+      <a href="index.html" class="active">About</a>
     </nav>
   </aside>
-  <main class="content">
-    <h2>About</h2>
-    <p>Welcome to The Lloyd Exhibit. This site is a starter pack with a sidebar layout and gothic title font.</p>
+  <main class="main">
+    <div class="container">
+      <h1>About</h1>
+      <p class="lead">Welcome to The Lloyd Exhibit. This site is a starter pack with a sidebar layout and gothic title font.</p>
+      <div class="card">
+        <p>Replace this text with your exhibition statement, artist bio, or project description.</p>
+        <p>You can add images or embed media here too.</p>
+      </div>
+      <footer><small>&copy; <span id="year"></span> The Lloyd Exhibit</small></footer>
+    </div>
   </main>
   <script src="script.js"></script>
 </body>
